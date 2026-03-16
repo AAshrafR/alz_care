@@ -1,7 +1,9 @@
 # alz_care 🧠📱
 
-**alz_care** is an Android application designed to support early detection of Alzheimer’s disease and simplify communication between patients and doctors.
-The app allows patients to book medical appointments, analyze brain MRI scans using a deep learning model, and manage their medical interactions with doctors.
+**alz_care** is an Android application designed to support early detection of Alzheimer’s disease
+and simplify communication between patients and doctors.
+The app allows patients to book medical appointments, analyze brain MRI scans using a deep learning
+model, and manage their medical interactions with doctors.
 
 ---
 
@@ -24,8 +26,8 @@ The app allows patients to book medical appointments, analyze brain MRI scans us
 * User registration and login using Firebase Authentication
 * Users can register as:
 
-  * **Doctor**
-  * **Patient**
+    * **Doctor**
+    * **Patient**
 * Each role is redirected to a different home interface.
 
 ---
@@ -42,12 +44,12 @@ Doctors have an **Appointments Activity** that contains two fragments:
 
 * **Waiting List**
 
-  * Displays patients requesting appointments
-  * Doctor can **Accept or Reject** appointment requests
+    * Displays patients requesting appointments
+    * Doctor can **Accept or Reject** appointment requests
 
 * **Accepted Appointments**
 
-  * Shows the list of patients whose appointments were approved
+    * Shows the list of patients whose appointments were approved
 
 ---
 
@@ -86,7 +88,8 @@ Displays doctors the patient has previously visited or booked appointments with.
 
 ## 🧠 Deep Learning Integration
 
-A **Convolutional Neural Network (CNN)** model is integrated into the application using **TensorFlow Lite** to analyze MRI brain scans and assist in early Alzheimer’s disease detection.
+A **Convolutional Neural Network (CNN)** model is integrated into the application using **TensorFlow
+Lite** to analyze MRI brain scans and assist in early Alzheimer’s disease detection.
 
 ---
 
@@ -112,4 +115,12 @@ The application follows the **MVVM (Model – View – ViewModel)** architecture
   <img src="screenshots/patient_home.png" width="250"/>
   <img src="screenshots/search_doctor.png" width="250"/>
   <img src="screenshots/waiting_list.png" width="250"/>
+</p>
+<p align="center">
+  <img src="screenshots/model1.jpg" width="250"/>
+  <img src="screenshots/model12.jpg" width="250"/>
+</p>
+<p align="center">
+  <img src="screenshots/confusion_matrix.png" width="250"/>
+  <img src="screenshots/model_accuracy.png" width="250"/>
 </p>
