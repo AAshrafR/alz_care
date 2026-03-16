@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_EMAIL" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlzCare"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.doctor.my_patients.MyPatientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.patient.my_doctors.MyDoctorsActivity"
+            android:exported="false" />
+        <activity android:name=".ui.profile.ProfileActivity"/>
+        <activity android:name=".ui.about_us.AboutUsActivity"/>
+        <activity android:name=".ui.doctor.my_patients.patient_profile.MyPatientProfileActivity"/>
+        <activity android:name=".ui.patient.my_doctors.doctor_profile.MyDoctorProfileActivity"/>
+        <activity android:name=".ui.doctor.appointments.AppointmentFragmentContainerActivity"/>
+        <activity android:name=".ui.patient.my_appointments.MyAppointmentsActivity"/>
+        <activity android:name=".ui.patient.make_appointment.PatientAppointmentActivity" />
+        <activity android:name=".ui.patient.search.SearchActivity" />
+        <activity android:name=".ui.patient.ml.DLModelActivity" />
+        <activity android:name=".ui.register.RegisterActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
+        <activity android:name=".ui.doctor.home.DoctorHomeActivity" />
+        <activity android:name=".ui.patient.home.PatientHomeActivity" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_waiting_list"
+        android:icon="@drawable/ic_waiting_list"
+        android:title="Waiting List" />
+    <item
+        android:id="@+id/navigation_accepted_appointment"
+        android:icon="@drawable/ic_accepted"
+        android:title="Accepted" />
+</menu>
