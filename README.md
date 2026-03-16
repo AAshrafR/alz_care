@@ -100,16 +100,16 @@ The application follows the **MVVM (Model – View – ViewModel)** architecture
 
 ---
 
-## 📱 Screenshots
+## 📱 App Screenshots
 
-(Add your application screenshots here)
+<p align="center">
+  <img src="screenshots/Login.png" width="250"/>
+  <img src="screenshots/Create_account.png" width="250"/>
+  <img src="screenshots/account.png" width="250"/>
+</p>
 
-Example:
-
-![Login Screen](screenshots/login.png)
-
-![Patient Home](screenshots/patient_home.png)
-
-![Doctor Dashboard](screenshots/doctor_dashboard.png)
-
----
+<p align="center">
+  <img src="screenshots/patient_home.png" width="250"/>
+  <img src="screenshots/search_doctor.png" width="250"/>
+  <img src="screenshots/waiting_list.png" width="250"/>
+</p>
