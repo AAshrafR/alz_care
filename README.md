@@ -123,12 +123,12 @@ The application follows the **MVVM (Model – View – ViewModel)** architecture
 
 ### Confusion Matrix
 <p align="center">
-  <img src="screenshots/confusion_matrix.png" width="250"/>
+  <img src="screenshots/confusion_matrix.png" width="500"/>
 </p>
 
 
 ### Model Accuracy
 <p align="center">
 
-  <img src="screenshots/model_accuracy.png" width="250"/>
+  <img src="screenshots/model_accuracy.png" width="500"/>
 </p>
