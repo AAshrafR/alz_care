@@ -120,7 +120,15 @@ The application follows the **MVVM (Model – View – ViewModel)** architecture
   <img src="screenshots/model1.jpg" width="250"/>
   <img src="screenshots/model12.jpg" width="250"/>
 </p>
+
+### Confusion Matrix
 <p align="center">
   <img src="screenshots/confusion_matrix.png" width="250"/>
+</p>
+
+
+### Model Accuracy
+<p align="center">
+
   <img src="screenshots/model_accuracy.png" width="250"/>
 </p>
