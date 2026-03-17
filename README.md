@@ -126,9 +126,22 @@ The application follows the **MVVM (Model – View – ViewModel)** architecture
   <img src="screenshots/confusion_matrix.png" width="500"/>
 </p>
 
-
 ### Model Accuracy
 <p align="center">
 
   <img src="screenshots/model_accuracy.png" width="500"/>
 </p>
+
+---
+
+## 🚀 Getting Started
+
+* Clone the repository
+
+* Open the project in Android Studio
+
+* Add your google-services.json
+
+* Run the application
+
+  
